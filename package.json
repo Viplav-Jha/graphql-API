@@ -1,0 +1,29 @@
+{
+  "name": "graphql_api",
+  "version": "1.0.0",
+  "description": "twitter api hits",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only src/main.ts"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.2.0",
+    "@fastify/jwt": "^7.2.4",
+    "apollo-server-core": "^3.13.0",
+    "apollo-server-fastify": "^3.13.0",
+    "argon2": "^0.31.2",
+    "class-validator": "^0.14.0",
+    "fastify": "^3.0.0",
+    "graphql": "^15.8.0",
+    "prisma": "^5.6.0",
+    "reflect-metadata": "^0.1.13",
+    "subscriptions-transport-ws": "^0.11.0",
+    "type-graphql": "^1.1.1"
+  }
+}
