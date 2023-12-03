@@ -7,9 +7,9 @@ class UserResolver{
      @Query(()=>User)
      user(){
          return{
-            id:'21312',
-            email:'423j4n',
-            username:'dshgfyrjrn'
+            id:'2116786',
+            email:'viplav.jha@gmail.com',
+            username:'12344'
          }
      }
 }
